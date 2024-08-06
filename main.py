@@ -1,16 +1,17 @@
-# This is a sample Python script.
+# Simple Python code to add two numbers
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Function to add two numbers
+def add_numbers(a, b):
+    return a + b
 
+# Main part of the program
+if __name__ == "__main__":
+    # Input numbers
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    # Calculate the sum
+    sum = add_numbers(num1, num2)
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('Ashish')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # Print the result
+    print(f"The sum of {num1} and {num2} is {sum}")
